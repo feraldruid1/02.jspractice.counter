@@ -44,8 +44,13 @@ div{
     justify-content: center;
     align-items: center;
 }
+img{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
 #second{
-    background-color: #000000;
+    background-color: orange;
     margin-left: 20px;
 }
 #third{
