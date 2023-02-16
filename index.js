@@ -4,15 +4,15 @@ let start=random
 h1.innerHTML=random
 function minus(){
     random--;
-    h1.innerHTML=random
+    h1.innerHTML=random;
 }
 function plus(){
     random++;
-    h1.innerHTML=random
+    h1.innerHTML=random;
 }
 function returntostart(){
-    h1.innerHTML=start
-    console.log(start)
+    random=start;
+    h1.innerHTML=random
 }
 third.addEventListener("click",minus);
 second.addEventListener("click",returntostart);
