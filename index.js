@@ -3,12 +3,14 @@ let random=Math.floor(Math.random()*101)
 h1.innerHTML=random
 function minus(){
     random--;
+    h1.innerHTML=random
 }
 function plus(){
     random++;
+    h1.innerHTML=random
 }
 function returntostart(){
-    return random;
+    h1.innerHTML=random
 }
 third.addEventListener("click",minus);
 second.addEventListener("click",returntostart);
